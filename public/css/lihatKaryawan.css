@@ -1,0 +1,45 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+    font-size: 20px;
+}
+
+.h1{
+    font-size: 64px;
+    text-align: center;
+    font-weight: 700;
+    margin: -10px 0px 100px 0px;  
+}
+
+table{
+    font-size: 20px;
+    align-items: center;
+    border-collapse: collapse;
+}
+
+.tableKaryawan {
+    border:solid 2px rgb(9, 9, 9);
+    position: static;
+    height: 350px;
+    overflow: auto;
+    display: block;
+    }
+
+th,tr,td{
+    border:solid 2px rgb(9, 9, 9);
+}
+
+thead{
+    top: 0;
+    position: static;
+    background: #678eda;
+    color: black;
+
+
+}
+
+  #searching{
+   margin-left: 0px; 
+   width: 500px;
+   margin-bottom: 10px;
+  }

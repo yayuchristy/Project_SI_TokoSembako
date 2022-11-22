@@ -1,0 +1,159 @@
+.wrapper {
+    width: 80%;
+    background-color: #F1f1f2;
+  }
+    
+  #jmlhBarang{
+    margin-left: 30px;
+    width: 35%;
+  }
+  
+  #labelJum{
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+  
+  .form{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    text-align: center;
+  }
+  
+  #kdBrng{
+    width: 35%;
+  }
+  
+  #btnTambah{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  #btnTambah:hover{
+    background-color: #1995AD;
+  }
+  
+  #btnBayar{
+    float: right;
+    width: 5%;
+  }
+  #btnBayar:hover{
+    background-color: #1995AD;
+  }
+  
+  body {
+    font-family: "Poiret One";
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #000000;
+  } 
+  
+  h2,h3,h5,h6 {
+    font-family: "Archivo";
+  }
+  
+  .card-body {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    background-color: #F1f1f2;
+  }
+  
+  h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: "Archivo";
+    font-size: 35px;
+  }
+  
+  #footer {
+    margin-top: 5px;
+    font-size: 15px;
+    background: #1995ad;
+  }
+  #footer .footer-bottom{
+    padding-bottom: 20px;
+  }
+  #footer .copyright {
+    margin-left: 40%;
+  }
+  
+  /* button{
+    border: none;
+  }
+  a{
+    text-decoration: none;
+  } */
+  /* input{
+    display: block;
+    width: 80%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 2px solid green;
+    font-family: sans-serif;
+    font-size: 16px;
+  } */
+  /* label{
+    font-family: sans-serif;
+  }
+  .modal{
+    border-radius: 10px;
+    padding: 50px;
+    margin-left:  30%;
+    margin-right: 30%;
+    box-shadow: 1px 1px 5px;
+    background-color: white;
+    visibility: hidden;
+  }
+  .modal h1,form{
+    margin-left: 20%;
+  }
+  .modal h1{
+    margin-left: 40%;
+    font-family: sans-serif;
+  }
+  .modal p{
+    position: relative;
+    left: 107%;
+    bottom: 65px;
+    font-size: 20px;
+    background-color: white;
+    display: inline;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .btn{
+    color: white;
+    width: 10%;
+    height: 80px;
+    font-size: 18px;
+    background-color: #007bff;
+    border-radius: 10px;
+  }
+  .btn2{
+    color: white;
+    width: 40%;
+    height: 40px;
+    margin-left: 20%;
+    background-color: #007bff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px
+  }
+  .btn2:hover{
+    background-color: #0F549B;
+  }
+  #wrab:target .modal{
+    transition: 0.56s;
+    transform: translateY(100px);
+    position: relative;
+    visibility: visible;
+  }
+  #wrab:target .bg-color{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0,.5);
+  } */
