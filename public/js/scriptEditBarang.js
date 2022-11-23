@@ -3,7 +3,7 @@ function seacrh() {
   var input, filter, table, tr, td, i, txtValue;
   input = document.getElementById("searching");
   filter = input.value.toUpperCase();
-  table = document.getElementById("tabelKaryawan");
+  table = document.getElementById("tabelBarang");
   tr = table.getElementsByTagName("tr");
 
   // Loop through all table rows, and hide those who don't match the search query
@@ -20,7 +20,7 @@ function seacrh() {
   }
 }
 function tampil() {
-  var table = document.getElementById("tabelKaryawan");
+  var table = document.getElementById("tabelBarang");
 
   for (var i = 1; i < table.rows.length; i++) {
     table.rows[i].onclick = function () {
