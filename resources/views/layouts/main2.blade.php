@@ -22,45 +22,38 @@
             Toko Mata Dewa
         </div>  
         <ul>
-            <li><a span class="icon"><ion-icon name="person-outline"></ion-icon></span>
-                <span class="title">Lihat Data Karyawan</span></a></li></a></li>
-            <li><a span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+            <li><a href ="/" span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                <span class="title">Lihat Data Karyawan</span></a></li>
+            <li><a href ="/inputkaryawan" span class="icon"><ion-icon name="person-outline"></ion-icon></span>
                 <span class="title">Input Data Karyawan</span></a></li></a></li>
-            <li><a span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+            <li><a href ="/editkaryawan" span class="icon"><ion-icon name="person-outline"></ion-icon></span>
                 <span class="title">Edit Data Karyawan</span></a></li></a></li>
-            <li><a span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+            <li><a href ="/hapuskaryawan" span class="icon"><ion-icon name="person-outline"></ion-icon></span>
                 <span class="title">Hapus Data Karyawan</span></a></li>
-            <li><a span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+            <li><a href ="/laporanpenjualan"span class="icon"><ion-icon name="person-outline"></ion-icon></span>
                 <span class="title">Laporan Penjualan</span></a></li></a></li>
-            <li><a span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+            <li><a href ="/laporankeuangan"span class="icon"><ion-icon name="person-outline"></ion-icon></span>
                 <span class="title">Laporan Keuangan</span></a></li></a></li>
-            <li><a span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+            <li><a href ="/logout" span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
                 <span class="title">Keluar</span></a></li></a></li> 
         </ul>
         <div class="bottom">
-            Jln. Nangameting, Maumere.
+            <div class="copyright">
+                &copy; Copyright <strong><span>Kelompok 2 | Rekayasa Perangkat Lunak</span></strong>
+              </div>
         </div>
     </div>
-    <div id="main">
-        <input type="checkbox" id="check">
-        <label for="check">
-             <ion-icon name="menu-outline" class="fas fa-bars" id="btn" onclick="w3_open()">&#9776;></ion-icon>
-            </label>
-            <section id="hero">
-                <div class="container">
-                    @yield('container')
-                </div>
-            </section>
-    </div>
-    <footer id="footer">
-        <div class="container1">
-          <div class="copyright">
-            &copy; Copyright <strong><span>Kelompok 2 | Rekayasa Perangkat Lunak</span></strong>
-          </div>
-        </div>
-      </footer><!-- End  Footer -->
 
-        <script>
+    <div id="main">
+        <section id="hero">
+            <div class="container">
+                <ion-icon name="menu-outline" class="fas fa-bars" id="btn" onclick="w3_open()">&#9776;></ion-icon>
+                @yield('container')
+            </div>
+        </section>
+    </div>
+    
+    <script>
             function w3_open() {
                 document.getElementById("main").style.marginLeft = "25%";
                 document.getElementById("mySidebar").style.width = "25%";

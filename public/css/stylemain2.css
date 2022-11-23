@@ -2,9 +2,9 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
-    color: #212529;
-    /* -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent; */
+    color: #252a2e;
+    -webkit-text-size-adjust: 100%;
+    /* -webkit-tap-highlight-color: transparent; */
 }
 
 main {
@@ -26,7 +26,7 @@ main {
 .sidebar {
     position: absolute;
     left: 0px;
-    width: 330px;
+    width: 350px;
     height: 100%;
     background: #505cfd;
     transition: all 0.5s ease;
@@ -76,23 +76,23 @@ ul li:hover a {
     display: none;
 }
 
-label #btn {
-    position: absolute;
+#btn {
+    position: fixed;
     cursor: pointer;
-    background: #ffffff;
+    background: hsl(0, 0%, 100%);
     border-radius: 3px;
 }
 #btnclose {
-    /* position: absolute; */
+    position: fixed;
     cursor: pointer;
     background: #ffffff;
     border-radius: 3px;
 }
 
 
-label #btn {
-     /* z-index: 1111; */
-    left: 100px; 
+#btn {
+    z-index: 1111;
+    left: 20px; 
     top: 30px;
     font-size: 20px;
     color: #000000;
@@ -101,9 +101,9 @@ label #btn {
 }
 
 #btnclose {
-    /* z-index: 1111;  */
-    /* left: 200px; */
-    top: 50px;  
+    z-index: 1111; 
+    left: 20px;
+    top: 30px;  
     font-size: 20px;
     color: #000000;
     padding: 4px 9px;
@@ -119,10 +119,4 @@ section {
     width: 100%;
 }
 
-section h1 {
-    text-align: center;
-    padding-top: 200px;
-    font-size: 60px;
-    color: #b5cedd;
-}
 

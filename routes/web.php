@@ -14,14 +14,12 @@ use App\Http\Controllers\karyawanController;
 */
 Route::get('/', 'App\Http\Controllers\karyawanController@index');
 
-Route::get('/input', function () {
+Route::get('/inputkaryawan', function () {
     return view('input_karyawan');
 });
 
-Route::get('/hapus', function () {
-    return view('hapus_karyawan');
-});
-
+Route::get('/hapuskaryawan', 'App\Http\Controllers\karyawanController@index');
+    
 Route::get('/cekcon', function () {
     return view('dbconn');
 });

@@ -1,5 +1,5 @@
 
-@extends('layouts.main')
+@extends('layouts.main2')
 
 @push('styles')
  <link href="{{ asset('css/inputKaryawan.css') }}" rel="stylesheet">

@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.main2')
 
 @push('styles')
  <link href="{{ asset('css/transaksi.css') }}" rel="stylesheet">

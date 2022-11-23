@@ -16,6 +16,7 @@ class karyawanController extends Controller
     {
         $data_karyawan = Karyawan::all();
         return view('lihat_karyawan',compact('data_karyawan'));
+        return view('hapus_karyawan',compact('data_karyawan'));
         
     }
 

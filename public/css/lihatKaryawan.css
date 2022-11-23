@@ -2,13 +2,25 @@ body{
     font-family: "Open Sans", sans-serif;
     color: #000000;
     font-size: 20px;
+    margin: 0 auto;
+}
+
+.main{
+    /* display:block;
+    align-items: center;
+    justify-content:center ; */
+    /* margin: 0 auto; */
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .h1{
     font-size: 64px;
     text-align: center;
     font-weight: 700;
-    margin: -10px 0px 100px 0px;  
+    padding-top: 30px;
+    font-size: 60px;
+    color: #000000;
 }
 
 table{
@@ -20,7 +32,8 @@ table{
 .tableKaryawan {
     border:solid 2px rgb(9, 9, 9);
     position: static;
-    height: 350px;
+    padding-top: 30px;
+    height: 220px;
     overflow: auto;
     display: block;
     }
@@ -40,6 +53,7 @@ thead{
 
   #searching{
    margin-left: 0px; 
+   margin-top: 70px;
    width: 500px;
-   margin-bottom: 10px;
+   margin-bottom: 20px;
   }
