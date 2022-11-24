@@ -12,33 +12,38 @@ class karyawanController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function lihat()
     {
-        $data_karyawan = Karyawan::all();
+        $data_karyawan = Karyawan::all(); 
         return view('lihat_karyawan',compact('data_karyawan'));
         return view('hapus_karyawan',compact('data_karyawan'));
         
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
+    public  function hapus()
     {
-        //
+        $data_karyawan = Karyawan::all(); 
+        return view('hapus_karyawan',compact('data_karyawan'));
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
+    public function input()
+    {
+        return view('input_karyawan');
+    }
+
+
     public function store(Request $request)
     {
-        //
+       dd($request->except(['_token', 'submit'])); 
+       $karyawan  = new Karyawan;
+       $karyawan->Kode_Karyawan = $request->Kode_Karyawan;
+       $karyawan->Nama_Karyawan = $request->Nama_Karyawan;
+       $karyawan->No_Telp_Karyawan = $request->No_Telp_Karyawan;
+       $karyawan->save();
+
+       if()
+    //    Karyawan::created($request->except(['_token', 'submit']));
+
     }
 
     /**
@@ -49,7 +54,7 @@ class karyawanController extends Controller
      */
     public function show($id)
     {
-        //
+        
     }
 
     /**
